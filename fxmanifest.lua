@@ -4,7 +4,7 @@ version '1.0.0'
 
 fx_version 'adamant'
 
-game 'gta'
+game 'gta5'
 
 client_scripts {
   "@NativeUI/NativeUI.lua",

@@ -12,16 +12,16 @@ local orderSheetOpen = false
 
 local orderSheetTypes = {
   pol = {
-    checked = false
-    name = 'Polizei'
+    checked = false,
+    name = 'Polizei',
   },
   bw = {
-    checked = false
-    name = 'Bundeswehr'
+    checked = false,
+    name = 'Bundeswehr',
   },
   general = {
-    checked = false
-    name = 'Allgemein'
+    checked = false,
+    name = 'Allgemein',
   },
 }
 
@@ -35,7 +35,7 @@ local sheetFoodMenu = _menuPool:AddSubMenu(rakteringMenu, "Bestellzettel ausfül
 
 -- Menu to select the type of the raketering order sheet
 function AddMenuOrderSheetType(menu)
-  for k,v in orderSheetTypes do
+  for k,v in pairs(orderSheetTypes) do
     local item = NativeUI.CreateCheckboxItem("Bestellzettel " .. v.name , v.checked)
     menu:AddItem(item)
 
