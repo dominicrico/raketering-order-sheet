@@ -1,0 +1,15 @@
+#order-sheet {
+  width: 570px;
+  height: 400px;
+  background-size: contain;
+  overflow: auto;
+  font-family: typewriter;
+  color: #3568a3;
+  margin-left: 70%;
+  margin-top: 30%;
+}
+
+@font-face {
+  font-family: typewriter;
+  src: url(TravelingTypewriter.otf);
+}
