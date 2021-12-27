@@ -3,7 +3,7 @@ The awesome Raketering Order Sheet. Shows the closest player the Raktering Order
 
 ## Requirements
 - [oxmysql](https://github.com/overextended/oxmysql/) 
-- [MenuApi](https://github.com/tomgrobbe/menuapi)
+- [NativeUI](https://github.com/FrazzIe/NativeUILua)
 
 ## How to install
 * [Download the lastest version of Raketering Order Sheet](https://github.com/dominicrico/raketering-order-sheet)
