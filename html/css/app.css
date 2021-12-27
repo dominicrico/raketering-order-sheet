@@ -1,0 +1,79 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Vujahday Script';font-size: 22px;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#order-sheet {
+  width: 570px;
+  height: 800px;
+  background-size: cover;
+  overflow: auto;
+  color: #3568a3;
+  background-image: url('https://cfx-nui-raketering-order-sheet/html/paper.png');
+  padding: 200px 56px 40px 35px;
+  box-sizing: border-box;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.rotate {
+  transform: rotate(355deg);
+}
+
+.recipient {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.header h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.header img {
+  width: 120px;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-60px);
+}
+
+.orders {
+  display: flex;
+  flex: 1;
+  min-height: 325px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.orders ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orders ul li {
+  display: flex;
+  flex: 1;
+  padding: 0 28px;
+  justify-content: space-between;
+  font-size: 26px;
+}
+
+.orders .summary {
+  margin-top: auto;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 40px;
+  font-weight: 600;
+  font-size: 18px;
+}

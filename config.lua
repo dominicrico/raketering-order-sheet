@@ -2,8 +2,8 @@ Config = {}
 
 Config.Job = 'Rakete'
 
-Config.UseKeyToOpen = false
-Config.Key = 51
+Config.UseKeyToOpen = true
+Config.Key = 47  -- [G]
 
 Config.FoodItems = {
   ['Frigadelle'] = 0,

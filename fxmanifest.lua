@@ -2,7 +2,7 @@ description 'Racketering Order Sheet'
 author 'MMenistr'
 version '1.0.0'
 
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
 
@@ -17,4 +17,15 @@ server_scripts {
 
 shared_scripts {
   'config.lua',
+}
+
+ui_page 'html/ui.html'
+
+files {
+  'html/listener.js',
+  'html/css/app.css',
+  'html/paper.png',
+  'html/stiefel.png',
+  'html/Beyond Infinity.ttf',
+  'html/ui.html',
 }
